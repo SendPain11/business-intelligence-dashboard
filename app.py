@@ -304,13 +304,6 @@ with st.sidebar:
     
     st.markdown("---")
     
-    # Export options
-    with st.expander("💾 Export", expanded=False):
-        if st.button("📊 Export Dashboard to PDF"):
-            st.info("PDF export feature (requires additional setup)")
-        if st.button("📈 Download Data (CSV)"):
-            st.info("CSV download ready")
-
 # ============================================================
 # LOAD DATA
 # ============================================================
@@ -1429,7 +1422,7 @@ elif dashboard == "📄 Report Generator":
     with col2:
         report_format = st.selectbox(
             "Export Format",
-            ["PDF", "Excel", "PowerPoint", "Word"]
+            ["PDF", "Excel", "CSV", "HTML"]
         )
         
         email_report = st.checkbox("Email Report", value=False)
@@ -1700,8 +1693,8 @@ elif dashboard == "📄 Report Generator":
                     st.info("Please install openpyxl: pip install openpyxl")
             
             with col4:
-                st.button("📊 Download PowerPoint", disabled=True, help="PowerPoint export requires python-pptx")
-                st.caption("⚠️ PPTX export needs setup")
+                st.button("📊 Download HTML", disabled=True, help="HTML export requires python-html")
+                st.caption("⚠️ HTML export needs setup")
 
 # ============================================================
 # FOOTER
