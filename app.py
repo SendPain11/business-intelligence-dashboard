@@ -11,7 +11,7 @@ Features:
 - Predictive Forecasting
 - Report Generator
 
-Author: Your Name
+Author: Sendy Prismana Nurferian
 """
 
 import streamlit as st
@@ -1715,8 +1715,8 @@ st.markdown("""
         <p><strong>Features:</strong> Executive Dashboards • Sales Analytics • Customer Insights • Financial Analysis • Predictive Forecasting • Automated Reports</p>
         <p style='margin-top: 20px; font-size: 0.9em;'>
             Made with ❤️ for Business Intelligence | 
-            <a href='https://github.com/yourusername' target='_blank'>GitHub</a> | 
-            <a href='https://linkedin.com/in/yourprofile' target='_blank'>LinkedIn</a>
+            <a href='https://github.com/SendPain11' target='_blank'>GitHub</a> | 
+            <a href='https://linkedin.com/in/sendy-prismana-nurferian/' target='_blank'>LinkedIn</a>
         </p>
     </div>
     """, unsafe_allow_html=True)
